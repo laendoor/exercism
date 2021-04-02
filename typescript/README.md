@@ -1,5 +1,6 @@
 # TypeScript Track
 
+* [Difference of Squares](difference-of-squares#readme)
 * [Hello World](hello-world#readme)
 * [Leap](leap#readme)
 * [Pangram](pangram#readme)
