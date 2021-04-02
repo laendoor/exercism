@@ -10,5 +10,6 @@
 * [Reverse String](reverse-string#readme)
 * [Rna Transcription](rna-transcription#readme)
 * [Space Age](space-age#readme)
+* [Triangle](triangle#readme)
 * [Two Fer](two-fer#readme)
 * [Word Count](word-count#readme)
