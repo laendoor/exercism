@@ -7,6 +7,7 @@
 * [Pangram](pangram#readme)
 * [Resistor Color Duo](resistor-color-duo#readme)
 * [Resistor Color](resistor-color#readme)
+* [Reverse String](reverse-string#readme)
 * [Rna Transcription](rna-transcription#readme)
 * [Space Age](space-age#readme)
 * [Two Fer](two-fer#readme)
