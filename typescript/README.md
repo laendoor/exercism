@@ -6,6 +6,7 @@
 * [Hello World](hello-world#readme)
 * [Leap](leap#readme)
 * [Pangram](pangram#readme)
+* [Raindrops](raindrops#readme)
 * [Resistor Color Duo](resistor-color-duo#readme)
 * [Resistor Color](resistor-color#readme)
 * [Reverse String](reverse-string#readme)
