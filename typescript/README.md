@@ -7,6 +7,7 @@
 * [Hello World](hello-world#readme)
 * [Leap](leap#readme)
 * [Pangram](pangram#readme)
+* [Perfect Numbers](perfect-numbers#readme)
 * [Raindrops](raindrops#readme)
 * [Resistor Color Duo](resistor-color-duo#readme)
 * [Resistor Color](resistor-color#readme)
