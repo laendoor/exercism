@@ -6,6 +6,7 @@
 * [Hamming](hamming#readme)
 * [Hello World](hello-world#readme)
 * [Leap](leap#readme)
+* [Matrix](matrix#readme)
 * [Pangram](pangram#readme)
 * [Perfect Numbers](perfect-numbers#readme)
 * [Raindrops](raindrops#readme)
