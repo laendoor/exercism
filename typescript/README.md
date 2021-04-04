@@ -3,6 +3,7 @@
 * [Allergies](allergies#readme)
 * [Clock](clock#readme)
 * [Collatz Conjecture](collatz-conjecture#readme)
+* [Complex Numbers](complex-numbers#readme)
 * [Difference of Squares](difference-of-squares#readme)
 * [ETL](etl#readme)
 * [Gigasecond](gigasecond#readme)
