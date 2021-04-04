@@ -1,5 +1,6 @@
 # TypeScript Track
 
+* [Clock](clock#readme)
 * [Difference of Squares](difference-of-squares#readme)
 * [ETL](etl#readme)
 * [Gigasecond](gigasecond#readme)
