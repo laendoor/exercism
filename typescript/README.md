@@ -7,6 +7,7 @@
 * [Difference of Squares](difference-of-squares#readme)
 * [ETL](etl#readme)
 * [Gigasecond](gigasecond#readme)
+* [Grains](grains#readme)
 * [Hamming](hamming#readme)
 * [Hello World](hello-world#readme)
 * [Leap](leap#readme)
