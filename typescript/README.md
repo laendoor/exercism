@@ -13,6 +13,7 @@
 * [Leap](leap#readme)
 * [Luhn](luhn#readme)
 * [Matrix](matrix#readme)
+* [Nucleotide Count](nucleotide-count#readme)
 * [Pangram](pangram#readme)
 * [Perfect Numbers](perfect-numbers#readme)
 * [Raindrops](raindrops#readme)
