@@ -14,6 +14,7 @@
 * [Luhn](luhn#readme)
 * [Matrix](matrix#readme)
 * [Nucleotide Count](nucleotide-count#readme)
+* [Palindrome Products](palindrome-products#readme)
 * [Pangram](pangram#readme)
 * [Perfect Numbers](perfect-numbers#readme)
 * [Raindrops](raindrops#readme)
