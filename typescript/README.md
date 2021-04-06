@@ -17,6 +17,7 @@
 * [Palindrome Products](palindrome-products#readme)
 * [Pangram](pangram#readme)
 * [Perfect Numbers](perfect-numbers#readme)
+* [Prime Factors](prime-factors#readme)
 * [Raindrops](raindrops#readme)
 * [Resistor Color Duo](resistor-color-duo#readme)
 * [Resistor Color](resistor-color#readme)
