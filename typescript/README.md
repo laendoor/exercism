@@ -24,6 +24,7 @@
 * [Resistor Color](resistor-color#readme)
 * [Reverse String](reverse-string#readme)
 * [Rna Transcription](rna-transcription#readme)
+* [Scrabble Score](scrabble-score#readme)
 * [Space Age](space-age#readme)
 * [Triangle](triangle#readme)
 * [Two Fer](two-fer#readme)
