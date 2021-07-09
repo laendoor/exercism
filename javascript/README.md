@@ -1,6 +1,7 @@
 # JavaScript Track
 
 * [Allergies](allergies#readme)
+* [Anagram](anagram#readme)
 * [Bank Account](bank-account#readme)
 * [Clock](clock#readme)
 * [Collatz Conjecture](collatz-conjecture#readme)
