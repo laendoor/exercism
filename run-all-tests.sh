@@ -1,42 +1,34 @@
 #!/usr/bin/env bash
 
-function testNPM() {
-  for dir in */; do
-    pushd $dir
-    npm test
-    popd
+pushd () {
+  command pushd "$@" > /dev/null || return
+}
+
+popd() {
+  command popd > /dev/null || return
+}
+
+function batsTest() {
+  for file in *.sh; do
+    if grep -q test "$file"; then
+      bats "$file" || return 1
+    fi
   done
 }
 
-function testYARN() {
-  for dir in */; do
-    pushd $dir
-    yarn test
-    popd
+function tests() {
+  local DIR_LANG=$1
+  local TEST_COMMAND=$2
+  pushd "$DIR_LANG" || return
+  for DIR_EXERCISE in */; do
+    pushd "$DIR_EXERCISE" || return
+    echo "Testing $DIR_LANG/$DIR_EXERCISE"
+    eval "$TEST_COMMAND" &> /dev/null || { echo "Failed '$TEST_COMMAND' in $DIR_LANG/$DIR_EXERCISE"; exit 1; }
+    popd || return
   done
+  popd || return
 }
 
-function testBATS() {
-  for dir in */; do
-    pushd $dir
-    for file in *.sh; do
-      if grep -q test $file; then
-        bats $file
-      fi
-    done
-    popd
-  done
-}
-
-pushd bash
-testBATS
-popd
-
-pushd javascript
-testNPM
-popd
-
-pushd typescript
-testYARN
-popd
-
+tests bash batsTest
+tests javascript "npm test"
+tests typescript "yarn test"
