@@ -1,6 +1,7 @@
 # TypeScript Track
 
 * [Allergies](allergies#readme)
+* [Bob](bob#readme)
 * [Clock](clock#readme)
 * [Collatz Conjecture](collatz-conjecture#readme)
 * [Complex Numbers](complex-numbers#readme)
