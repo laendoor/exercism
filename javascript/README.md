@@ -3,6 +3,7 @@
 * [Allergies](allergies#readme)
 * [Anagram](anagram#readme)
 * [Bank Account](bank-account#readme)
+* [Bob](bob#readme)
 * [Clock](clock#readme)
 * [Collatz Conjecture](collatz-conjecture#readme)
 * [Complex Numbers](complex-numbers#readme)
