@@ -20,6 +20,7 @@
 * [Nucleotide Count](nucleotide-count#readme)
 * [Palindrome Products](palindrome-products#readme)
 * [Pangram](pangram#readme)
+* [Pascal Triangle](pascal-triangle#readme)
 * [Perfect Numbers](perfect-numbers#readme)
 * [Prime Factors](prime-factors#readme)
 * [Pythagorean Triplet](pythagorean-triplet#readme)
