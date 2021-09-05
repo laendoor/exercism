@@ -14,6 +14,7 @@
 * [Hamming](hamming#readme)
 * [Hello World](hello-world#readme)
 * [Leap](leap#readme)
+* [Lucian's Luscious Lasagna](lasagna#readme)
 * [Luhn](luhn#readme)
 * [Matrix](matrix#readme)
 * [Meetup](meetup#readme)
