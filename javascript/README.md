@@ -8,6 +8,7 @@
 * [Collatz Conjecture](collatz-conjecture#readme)
 * [Complex Numbers](complex-numbers#readme)
 * [Difference of Squares](difference-of-squares#readme)
+* [Elyses Enchantments](elyses-enchantments#readme)
 * [Etl](etl#readme)
 * [Gigasecond](gigasecond#readme)
 * [Grains](grains#readme)
