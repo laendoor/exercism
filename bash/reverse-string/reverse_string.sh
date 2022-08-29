@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-rev <<< $1
+rev <<< "$1"
