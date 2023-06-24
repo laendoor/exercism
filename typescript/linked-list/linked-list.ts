@@ -12,9 +12,11 @@ class Node<T> {
 
 export class LinkedList<T> {
   private head: Node<T> | null;
+  private length: number;
 
   constructor() { 
     this.head = null;
+    this.length = 0;
   }
 
   private getTail(): Node<T> | null {
@@ -34,11 +36,13 @@ export class LinkedList<T> {
     const tail = this.getTail();
     if (tail === null) {
       this.head = newNode;
+      this.length += 1;
       return;
     }
 
     tail.next = newNode;
     newNode.prev = tail;
+    this.length += 1;
   }
 
   public pop(): T {
@@ -49,10 +53,12 @@ export class LinkedList<T> {
 
     if (tail.prev === null) {
       this.head = null;
+      this.length -= 1;
       return tail.data;
     }
 
     tail.prev.next = null;
+    this.length -= 1;
     return tail.data;
   }
 
@@ -66,6 +72,8 @@ export class LinkedList<T> {
     if (this.head !== null) {
       this.head.prev = null;
     }
+    
+    this.length -= 1;
     return head.data;
   }
 
@@ -76,11 +84,9 @@ export class LinkedList<T> {
       this.head.prev = newNode;
     }
     this.head = newNode;
+    this.length += 1;
   }
 
-  /**
-   * deletes the element with the specified value from the list
-   */
   public delete(element: T) {
     if (this.head === null) {
       return;
@@ -91,6 +97,7 @@ export class LinkedList<T> {
       if (this.head !== null) {
         this.head.prev = null;
       }
+      this.length -= 1;
       return;
     }
 
@@ -106,20 +113,11 @@ export class LinkedList<T> {
       if (current.next !== null) {
         current.next.prev = current.prev;
       }
+      this.length -= 1;
     }
   }
 
   public count(): number {
-    if (this.head === null) {
-      return 0;
-    }
-
-    let count = 1;
-    let current = this.head;
-    while (current !== null && current.next !== null) {
-      count++;
-      current = current.next;
-    }
-    return count;
+    return this.length;
   }
 }
