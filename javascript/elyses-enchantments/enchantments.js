@@ -6,9 +6,11 @@
  * @param {number[]} cards
  * @param {number} position
  *
- * @returns {number} the card
+ * @returns {number | undefined} the card
  */
-export const  getItem = (cards, position) => cards[position];
+export function getItem(cards, position) {
+  return cards.at(position);
+}
 
 /**
  * Exchange card with replacementCard at the 0-based position
@@ -20,8 +22,9 @@ export const  getItem = (cards, position) => cards[position];
  * @returns {number[]} the cards with the change applied
  */
 export function setItem(cards, position, replacementCard) {
-  cards[position] = replacementCard;
-  return cards;
+  return cards.map((elem, pos) => {
+    return pos === position ? replacementCard : elem;
+  })
 }
 
 /**
@@ -46,8 +49,9 @@ export function insertItemAtTop(cards, newCard) {
  * @returns {number[]} the cards without the removed card
  */
 export function removeItem(cards, position) {
-  cards.splice(position, 1);
-  return cards;
+  const cards1 = cards.slice(0, position);
+  const cards2 = cards.slice(position + 1);
+  return cards1.concat(cards2);
 }
 
 /**
@@ -95,4 +99,6 @@ export function removeItemAtBottom(cards) {
  *
  * @returns {boolean} true if there are exactly stackSize number of cards, false otherwise
  */
-export const checkSizeOfStack = (cards, stackSize) => cards.length === stackSize;
+export function checkSizeOfStack(cards, stackSize) {
+  return cards.length === stackSize;  
+}
