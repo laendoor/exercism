@@ -2,3 +2,5 @@
 node_modules/
 .stack-work/
 .yarn/
+.DS_Store
+
